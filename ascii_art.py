@@ -18,7 +18,7 @@ while y < image.height:
 # Depending on its brightness, assign it an ASCII character
     while z < 3:
         a += 85
-        if brightness <= a and brightness >= b:
+        if brightness <= a and brightness > b:
             text += characters[z]
             text += characters[z]
         b += 85
